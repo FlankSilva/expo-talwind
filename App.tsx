@@ -1,7 +1,7 @@
-import { Home } from './src/screens/Home';
+import 'react-native-gesture-handler'
+
+import { Routes } from './src/routes'
 
 export default function App() {
-  return (
-    <Home />
-  );
+  return <Routes />
 }
